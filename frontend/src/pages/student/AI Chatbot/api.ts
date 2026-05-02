@@ -1,12 +1,12 @@
 import { Message } from './schema';
 
-const GEMINI_API_KEY = 'AIzaSyCnAn6zPWwL66uVk6EoJ7ELhb2uB2VRdsk';
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+const GEMINI_API_KEY = '';
+const GEMINI_API_URL = '';
 
 // Alternative API endpoints to try if the main one fails
 const ALTERNATIVE_API_ENDPOINTS = [
-  'https://api.openai.com/v1/chat/completions',
-  'https://api.openai.com/v1/completions', // Fallback to completions API
+  '',
+  '', // Fallback to completions API
 ];
 
 // Use a CORS proxy if needed to bypass DNS issues
